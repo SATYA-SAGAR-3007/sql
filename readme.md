@@ -2,6 +2,8 @@
 
 There are 2 files `app.js` and a database file `cricket.db` consisting of three tables `player_details`, `match_details` and `player_match_score`.
 
+Also this repo includes a http file (cricket.http) with that we can do the api calls
+
 This Contains APIs to perform operations on the tables `player_details`, `match_details` and `player_match_score` containing the following columns,
 
 **Player Details Table**
@@ -191,3 +193,4 @@ Returns the statistics of the total score, fours, sixes of a specific player bas
 ```
 
 <br/>
+
