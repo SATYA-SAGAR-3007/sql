@@ -22,4 +22,28 @@ GET http://localhost:3000/players/1/matches
 GET http://localhost:3000/matches/1/players/
 
 ### 7. Get player total scores (aggregated)
-GET http://localhost:3000/players/1/playerScores/
+=======
+### 1. Get all players
+GET http://localhost:3000/players/
+
+### 2. Get player by ID
+GET http://localhost:3000/players/1/
+
+### 3. Update player name
+PUT http://localhost:3000/players/1/
+Content-Type: application/json
+
+{
+  "playerName": "Virat Kohli"
+}
+
+### 4. Get match by ID
+GET http://localhost:3000/matches/1/
+
+### 5. Get all matches of a player
+GET http://localhost:3000/players/1/matches
+
+### 6. Get all players of a match
+GET http://localhost:3000/matches/1/players/
+
+### 7. Get player total scores (aggregated)
